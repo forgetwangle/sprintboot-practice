@@ -8,3 +8,4 @@
 009：请求响应-请求-json参数，User和Address实体类在005中
 010：请求响应-请求-路径参数
 011：认识@ConfigurationProperties注解
+012：POJO类，Java Bean类，Spring Bean类
