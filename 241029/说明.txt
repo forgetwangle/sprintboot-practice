@@ -9,4 +9,4 @@
 010：请求响应-请求-路径参数
 011：认识@ConfigurationProperties注解
 012：POJO类，Java Bean类，Spring Bean类
-013：IoC容器
+013：IoC容器，@Configuration
