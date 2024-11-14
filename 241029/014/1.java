@@ -14,4 +14,11 @@ public class ZypjApplication {
 /**
 ai语句实例：
 	详细介绍@Test注解在Springboot中的使用
+	
+Spring Boot DevTools
+Lombok
+Spring Web
+MySQL Driver
+Sprint Boot JPA
+
 */
