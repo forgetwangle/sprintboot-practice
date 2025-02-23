@@ -82,3 +82,21 @@
 spel复杂类型("#{   {  'english'  :  '98'  ,  'math'  :  '90'  }   }")
 
 ("#{   'english, math'   }")
+
+七，Bean的生命周期
+
+1.配置@Component @Bean .. XushuService @Autowired ZhangsanService
+
+2. 加载Spring容器
+
+3. 实例化(XushuService xushu=new XushuService())
+
+4.解析依赖注入(解析@Autowired @Value)
+
+5.初始化(调用初始化方法,由程序有来配置)
+
+6. 最终放入Map<beanName,bean对象>
+
+7. spring容器.getBean("beanName") ---- >Map<beanName,bean对象>
+
+8，spring容器关闭，bean销毁，（调用销毁回调方法，由程序来配置）
